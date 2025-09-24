@@ -24,24 +24,10 @@ A beautiful, simple grocery inventory tracking system that helps you never run o
 
 ---
 
-## Installation
+## 🚀 Installation
 
 ### **From GitHub**
 
-#### **Windows Installation**
-```powershell
-# Clone the repository
-git clone https://github.com/cgninety/Grocery_Tracker.git
-cd grocery-tracker
-
-# Install Node.js dependencies
-npm install
-
-# Start the application
-npm start
-```
-
-#### **Linux/Mac Installation**
 ```bash
 # Clone the repository
 git clone https://github.com/cgninety/Grocery_Tracker.git

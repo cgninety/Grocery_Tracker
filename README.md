@@ -31,7 +31,7 @@ A beautiful, simple grocery inventory tracking system that helps you never run o
 #### **Windows Installation**
 ```powershell
 # Clone the repository
-git clone https://github.com/yourusername/grocery-tracker.git
+git clone https://github.com/cgninety/Grocery_Tracker.git
 cd grocery-tracker
 
 # Install Node.js dependencies
@@ -44,7 +44,7 @@ npm start
 #### **Linux/Mac Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/grocery-tracker.git
+git clone https://github.com/cgninety/Grocery_Tracker.git
 cd grocery-tracker
 
 # Install Node.js dependencies
@@ -65,7 +65,7 @@ npm start
 
 1. **Install & Start**
    ```bash
-   git clone https://github.com/yourusername/grocery-tracker.git
+   git clone https://github.com/cgninety/Grocery_Tracker.git
    cd grocery-tracker
    npm install
    npm start

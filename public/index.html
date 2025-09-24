@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛒 Grocery Tracker</h1>
+            <p>Keep track of your groceries and never run out again!</p>
+        </header>
+
+        <!-- Email Configuration -->
+        <section class="email-section">
+            <h2>📧 Email Settings</h2>
+            <div class="form-group">
+                <input type="email" id="userEmail" placeholder="your-email@gmail.com">
+                <button onclick="updateEmail()">Save Email</button>
+                <button onclick="testEmail()" class="secondary">Test Email</button>
+            </div>
+        </section>
+
+        <!-- Add Item Form -->
+        <section class="add-item">
+            <h2>➕ Add New Item</h2>
+            <form id="addItemForm">
+                <div class="form-row">
+                    <input type="text" id="itemName" placeholder="Item name" required>
+                    <input type="number" id="itemQuantity" placeholder="Quantity" required min="1">
+                    <select id="itemUnit" required>
+                        <option value="">Unit</option>
+                        <option value="servings">Servings</option>
+                        <option value="pieces">Pieces</option>
+                        <option value="grams">Grams</option>
+                        <option value="ml">ML</option>
+                        <option value="cups">Cups</option>
+                        <option value="tbsp">Tablespoons</option>
+                        <option value="tsp">Teaspoons</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <input type="date" id="dateBought" required>
+                    <input type="date" id="expirationDate" required>
+                    <button type="submit">Add Item</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Usage Logging -->
+        <section class="log-usage">
+            <h2>🍽️ Log Usage</h2>
+            <form id="logUsageForm">
+                <div class="form-row">
+                    <select id="usageItem" required>
+                        <option value="">Select item...</option>
+                    </select>
+                    <input type="number" id="usageQuantity" placeholder="Quantity used" required min="1">
+                    <button type="submit">Log Usage</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Inventory Display -->
+        <section class="inventory">
+            <h2>📦 Current Inventory</h2>
+            <div id="inventoryList" class="inventory-grid">
+                <!-- Items will be loaded here -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

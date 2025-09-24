@@ -1,0 +1,24 @@
+{
+  "name": "grocery-tracker",
+  "version": "1.0.0",
+  "description": "Simple grocery inventory tracking system",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
+    "setup": "node server/database.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5",
+    "nodemailer": "^6.9.1",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["grocery", "inventory", "tracking"],
+  "author": "",
+  "license": "ISC"
+}

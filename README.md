@@ -311,9 +311,3 @@ MIT License - Feel free to use and modify!
 ---
 
 ## Enjoy!
-
-Never run out of groceries again! Your Friday morning emails will keep you stocked and organized. 
-
-**Questions?** Check the troubleshooting section or open an issue on GitHub.
-
-**Happy grocery tracking!** 

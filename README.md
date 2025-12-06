@@ -1,4 +1,4 @@
-# 🛒 Grocery Tracker
+# Grocery Tracker
 
 A beautiful, simple grocery inventory tracking system that helps you never run out of essentials again! Get automatic email notifications when items are running low or expired.
 
@@ -24,7 +24,7 @@ A beautiful, simple grocery inventory tracking system that helps you never run o
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### **From GitHub**
 
@@ -215,7 +215,7 @@ CREATE TABLE users (
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### **Email Schedule**
 Edit `server/app.js` to change email timing:
